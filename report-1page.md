@@ -15,18 +15,18 @@
 
 ### 3. Kết quả chính
 **Assets:**
-- 
-- 
+- Dữ liệu người dùng (tài khoản, mật khẩu, thông tin cá nhân)
+- Hệ thống máy chủ và cơ sở dữ liệu
 
 **CIA mapping:**
-- Sự cố A -> 
-- Sự cố B -> 
-- Sự cố C -> 
+- Sự cố A -> Confidentiality
+- Sự cố B -> Integrity
+- Sự cố C -> Availability
 
 **Phân tích sự cố B:**
-- Threat: 
-- Vulnerability: 
-- Mitigation: 
+- Threat: Kẻ tấn công hoặc người dùng nội bộ chỉnh sửa dữ liệu trái phép
+- Vulnerability: Phân quyền không rõ ràng, thiếu kiểm tra đầu vào, không có cơ chế kiểm tra tính toàn vẹn dữ liệu
+- Mitigation: Áp dụng phân quyền chặt chẽ, kiểm tra dữ liệu đầu vào, sử dụng logging và cơ chế xác thực/kiểm tra toàn vẹn
 
 ### 4. Kết luận ngắn
-(4-6 dòng: em học được gì từ bài lab này, phần nào khó nhất, điều gì cần chú ý khi phân tích một sự cố an toàn thông tin.)
+Qua bài lab, em hiểu rõ hơn về mô hình CIA và cách áp dụng trong việc phân tích các sự cố an toàn thông tin. Em biết cách xác định tài sản quan trọng và liên hệ từng sự cố với các yếu tố bảo mật tương ứng. Phần khó nhất là phân biệt giữa các yếu tố trong CIA khi tình huống không rõ ràng. Bài lab giúp em rèn luyện tư duy phân tích threat, vulnerability và mitigation một cách logic. Khi phân tích sự cố, cần đọc kỹ bối cảnh để xác định đúng bản chất vấn đề.
